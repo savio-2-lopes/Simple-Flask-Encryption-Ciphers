@@ -49,7 +49,7 @@ Além disto é bom ter um editor para trabalhar com o código, como [VSCode](htt
 
 ```bash
 
-# Clone esse repositório
+# Clone o repositório
 $ git clone https://github.com/savio-2-lopes/Simple_Site_Flask_Encrypt_Caesar.git
 
 # Acesse a pasta 
