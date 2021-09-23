@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% if option == 'criptografar' %}
+
+  <title>Criptografar</title>
+
+  {% else %}
+
+  <title>Descriptografar</title>
+
+  {% endif %}
+
+  <link rel="shortcut icon"
+    href="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Download-Computer-256.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="min-h-screen flex flex-col justify-center bg-indigo-600">
+
+    {% if option == 'criptografar' %}
+
+    <div class="bg-white mx-auto max-w-md py-8 px-10 shadow rounded-lg">
+      <picture class="mb-4">
+        <img src="{{ url_for('static', filename='image/alert.svg') }}" alt="Ícones">
+      </picture>
+
+      <form method="POST">
+        <div class="mb-4">
+          {% if data == '' %}
+          <input type="text" name="texto" placeholder="Criptografar"
+            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
+          {% else %}
+          <input type="text" value={{data}} disabled
+            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
+          {% endif %}
+        </div>
+
+        <div class="mb-4">
+          <button type="submit"
+            class="inline-block w-full px-8 py-4 leading-none text-white bg-indigo-600 hover:bg-indigo-400 font-semibold rounded shadow">
+            Criptografar
+          </button>
+
+          <div class="nb-4 mt-4">
+            <p>
+              Gostaria de descriptografar o texto? <a href="{{ url_for('descriptografar') }}"
+                class="text-indigo-600">Descriptografar</a>
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    {% else %}
+
+    <div class="bg-white mx-auto max-w-md py-8 px-10 shadow rounded-lg">
+      <picture class="mb-4">
+        <img src="{{ url_for('static', filename='image/col.svg') }}" alt="Ícones">
+      </picture>
+
+      <form method="POST">
+        <div class="mb-4">
+          {% if data == '' %}
+          <input type="text" name="texto" placeholder="Descriptografar"
+            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
+          {% else %}
+          <input type="text" value={{data}} disabled
+            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
+          {% endif %}
+        </div>
+
+        <div class="mb-4">
+          <button type="submit"
+            class="inline-block w-full px-8 py-4 leading-none text-white bg-indigo-600 hover:bg-indigo-400 font-semibold rounded shadow">
+            Descriptografar
+          </button>
+
+          <div class="nb-4 mt-4">
+            <p>
+              Gostaria de criptografar o texto? <a href="{{ url_for('criptografar') }}"
+                class="text-indigo-600">Criptografar
+              </a>
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+    {% endif %}
+  </div>
+</body>
+
+</html>
