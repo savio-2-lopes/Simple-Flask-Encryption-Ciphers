@@ -28,7 +28,7 @@
 
     <div class="bg-white mx-auto max-w-md py-8 px-10 shadow rounded-lg">
       <picture class="mb-4">
-        <img src="{{ url_for('static', filename='image/alert.svg') }}" alt="Ícones">
+        <img draggable="false" src="{{ url_for('static', filename='image/alert.svg') }}" alt="Ícones">
       </picture>
 
       <form method="POST">
@@ -38,7 +38,7 @@
             class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
           {% else %}
           <input type="text" value={{data}} disabled
-            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
+            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight bg-gray-100 focus:bg-gra border border-gray-500 focus:border-gray-700 rounded focus:outline-none">
           {% endif %}
         </div>
 
@@ -62,7 +62,7 @@
 
     <div class="bg-white mx-auto max-w-md py-8 px-10 shadow rounded-lg">
       <picture class="mb-4">
-        <img src="{{ url_for('static', filename='image/col.svg') }}" alt="Ícones">
+        <img draggable="false" src="{{ url_for('static', filename='image/col.svg') }}" alt="Ícones">
       </picture>
 
       <form method="POST">
@@ -72,7 +72,7 @@
             class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
           {% else %}
           <input type="text" value={{data}} disabled
-            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
+            class="mt-5 appearance-none block w-full px-4 py-3 leading-tight bg-gray-100 focus:bg-gra border border-gray-500 focus:border-gray-700 rounded focus:outline-none">
           {% endif %}
         </div>
 
