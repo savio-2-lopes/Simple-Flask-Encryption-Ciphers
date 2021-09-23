@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="API" title="API" src="./static/1.gif" width="800px" />
+    <img alt="API" title="API" src="./static/01.gif" width="800px" />
 </h3>
  
 <p align="center"> 
