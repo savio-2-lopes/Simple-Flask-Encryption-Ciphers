@@ -86,6 +86,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <a id="creditos"></a>
 
-## :memo: Créditos de Imagem
+## 💜 Créditos de Imagem
 
 Todos os direitos de imagens utilizadas no projeto são do site [undraw.co](https://undraw.co/illustrations).
