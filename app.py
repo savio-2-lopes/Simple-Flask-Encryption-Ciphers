@@ -17,7 +17,7 @@ def criptografar():
   data = ''
 
   if request.method == 'POST':
-    texto = request.form['texto'].replace(" ", "-")
+    texto = request.form['texto'].replace(" ", "-").lower()
     deslocamento = request.form['deslocamento']
     desl = int(deslocamento)
     data = encryption_caesar(texto, desl, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
@@ -34,7 +34,7 @@ def descriptografar():
     texto = request.form['texto']
     deslocamento = request.form['deslocamento']
     desl = int(deslocamento)
-    data = descryption_caesar(texto, deslocamento, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
+    data = descryption_caesar(texto, desl, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
   print(data)
   return render_template('index.html', data=data, option=option)
 
