@@ -28,15 +28,16 @@ def criptografar():
 @app.route('/descriptografar/', methods=['GET', 'POST'])
 def descriptografar():
   option = "descriptografar"
-  data = ''
+  new_data = ''
 
   if request.method == 'POST':
     texto = request.form['texto']
     deslocamento = request.form['deslocamento']
     desl = int(deslocamento)
     data = descryption_caesar(texto, desl, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
-  print(data)
-  return render_template('index.html', data=data, option=option)
+    new_data = data.replace("'", "-")
+  print(new_data)
+  return render_template('index.html', data=new_data, option=option)
 
 # Tela de erro
 
