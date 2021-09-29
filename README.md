@@ -73,7 +73,7 @@ $ pip install -r requirements.txt
 $ python3 app.py
 
 # Se não ocorrer erro, acesse o navegador e digite:
-$ http://localhost:5000
+$ http://localhost:5000/
 
 
 ```
