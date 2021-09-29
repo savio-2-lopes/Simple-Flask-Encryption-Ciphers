@@ -63,6 +63,9 @@ $ . venv/bin/activate
 $ py -3 -m venv venv
 $ venv\Scripts\activate
 
+# Crie um arquivo .env e insira uma chave aleatória
+$ SECRET_KEY='MY_KEY'
+
 # Após isso, instale as depedências
 $ pip install -r requirements.txt
 
