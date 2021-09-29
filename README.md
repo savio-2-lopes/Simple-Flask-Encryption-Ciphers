@@ -72,7 +72,7 @@ $ pip install -r requirements.txt
 # Após isso inicie os arquivos dentro de sua respectiva pastas
 $ python3 app.py
 
-# Se não ocorrer erro, acesse o navegador e digire:
+# Se não ocorrer erro, acesse o navegador e digite:
 $ http://localhost:5000
 
 
