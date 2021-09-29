@@ -63,14 +63,18 @@ $ . venv/bin/activate
 $ py -3 -m venv venv
 $ venv\Scripts\activate
 
-# Crie um arquivo .env e insira uma chave aleatória
+# Dentro da pasta, crie um arquivo .env e insira uma chave aleatória
 $ SECRET_KEY='MY_KEY'
 
-# Após isso, instale as depedências
+# Na pasta, instale as depedências
 $ pip install -r requirements.txt
 
 # Após isso inicie os arquivos dentro de sua respectiva pastas
 $ python3 app.py
+
+# Se não ocorrer erro, acesse o navegador e digire:
+$ http://localhost:5000
+
 
 ```
 
