@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Chave da aplicação Flask
 
-app.secret_key = config('SECRET_KEY')
+# app.secret_key = config('SECRET_KEY')
 
 # Criptografar
 
