@@ -1,9 +1,9 @@
 <h3 align="center">
-    <img alt="API" title="API" src="./static/1.gif" width="400px" />
+    <img alt="API" title="API" src="./static/1.gif" width="600px" />
 </h3>
  
  <h3 align="center">
-    <img alt="API" title="API" src="./static/2.gif" width="400px" />
+    <img alt="API" title="API" src="./static/2.gif" width="600px" />
 </h3>
  
 <p align="center"> 
