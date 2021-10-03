@@ -18,13 +18,11 @@ def criptografar():
 
   if request.method == 'POST':
     texto = request.form['texto'].replace(" ", "-").lower()
-    deslocamento = request.form['deslocamento']
-
-    if texto or deslocamento == '':
-      return render_template('index.html', data=data, option=option)
-
-    desl = int(deslocamento)
-    data = encryption_caesar(texto, desl, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
+    chave = request.form['deslocamento']
+    
+    deslocamento = int(chave)
+    
+    data = encryption_caesar(texto, deslocamento, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
   return render_template('index.html', data=data, option=option)
 
 # Descriptografar
@@ -32,20 +30,19 @@ def criptografar():
 @app.route('/descriptografar/', methods=['GET', 'POST'])
 def descriptografar():
   option = "descriptografar"
-  new_data = ''
+  add_space_in_text = ''
 
   if request.method == 'POST':
     texto = request.form['texto']
-    deslocamento = request.form['deslocamento']
-
-    if texto or deslocamento == '':
-      return render_template('index.html', data=data, option=option)
-
-    desl = int(deslocamento)
-    data = descryption_caesar(texto, desl, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
-    new_data = data.replace("'", "-")
-  print(new_data)
-  return render_template('index.html', data=new_data, option=option)
+    chave = request.form['deslocamento']
+    
+    deslocamento = int(chave)
+    
+    data = descryption_caesar(texto, deslocamento, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation])
+    add_space_in_text = data.replace("'", "-")
+  
+  print(add_space_in_text)
+  return render_template('index.html', data=add_space_in_text, option=option)
 
 # Tela de erro
 
