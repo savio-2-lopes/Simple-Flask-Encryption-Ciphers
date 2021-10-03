@@ -72,8 +72,11 @@ Além disto é bom ter um editor para trabalhar com o código, como [VSCode](htt
 # Clone o repositório
 $ git clone https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers.git
 
-# Acesse a pasta 
-$ cd simple_sites_flask_encryption_ciphers
+# Acesse a pasta da cifra cesar para testar
+$ cd simple_sites_flask_encryption_ciphers/cifra_cesar
+
+# Ou da cifra permuta para testar
+$ cd simple_sites_flask_encryption_ciphers/cifra_permuta
 
 # Caso não esteja em ambiente virtual, certifique-se de criá-lo dentro da pasta (em Linux/macOS) e ativá-lo
 $ python3 -m venv venv
