@@ -1,5 +1,9 @@
 <h3 align="center">
-    <img alt="API" title="API" src="./static/1.gif" width="800px" />
+    <img alt="API" title="API" src="./static/1.gif" width="400px" />
+</h3>
+ 
+ <h3 align="center">
+    <img alt="API" title="API" src="./static/2.gif" width="400px" />
 </h3>
  
 <p align="center"> 
@@ -29,7 +33,23 @@
 
 ## 💻 Sobre o projeto
 
-:book: Simples website em Flask e Tailwind para criptografar/descriptografar textos utilizando o método de criptografia cifra de [cesar](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+:zap: Simples website em Flask e Tailwind para criptografar/descriptografar textos utilizando os métodos de criptografia abaixo:
+
+<br>
+
+### :book: Cifra Cesar
+
+<h3 align="center">
+    <img alt="API" title="API" src="./static/1.gif" width="800px" />
+</h3>
+ 
+<br>
+
+### :memo: Cifra permuta
+
+<h3 align="center">
+    <img alt="API" title="API" src="./static/2.gif" width="800px" />
+</h3>
 
 <br>
 
@@ -50,10 +70,10 @@ Além disto é bom ter um editor para trabalhar com o código, como [VSCode](htt
 ```bash
 
 # Clone o repositório
-$ git clone https://github.com/savio-2-lopes/Simple_Site_Flask_Encrypt_Caesar.git
+$ git clone https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers.git
 
 # Acesse a pasta 
-$ cd Prediction-ML-Simple_Site_Flask_Encrypt_Caesar
+$ cd simple_sites_flask_encryption_ciphers
 
 # Caso não esteja em ambiente virtual, certifique-se de criá-lo dentro da pasta (em Linux/macOS) e ativá-lo
 $ python3 -m venv venv
