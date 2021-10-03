@@ -29,7 +29,7 @@
 
 ## 💻 Sobre o projeto
 
-:book: Simples website em Flask e Tailwind para criptografar/desicriptograr textos utilizando o método de criptografia cifra de [caesar](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+:book: Simples website em Flask e Tailwind para criptografar/descriptografar textos utilizando o método de criptografia cifra de [cesar](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
 
 <br>
 
