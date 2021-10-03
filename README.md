@@ -43,17 +43,21 @@
 
 ### :book: Algoritmo de Cesar
 
-<a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_cesar" align="center">
-    <img alt="API" title="API" src="./static/1.gif" width="800px" />
-</a>
- 
+<p align="center">
+  <a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_cesar">
+      <img alt="API" title="API" src="./static/1.gif" width="800px" />
+  </a>
+</p>
+
 <br>
 
 ### :memo: Algoritmo de permuta
 
-<a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_permuta" align="center">
-    <img alt="API" title="API" src="./static/2.gif" width="800px" />
-</a>
+<p align="center">
+  <a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_permuta">
+      <img alt="API" title="API" src="./static/2.gif" width="800px" />
+  </a>
+</p>
 
 <br>
 
