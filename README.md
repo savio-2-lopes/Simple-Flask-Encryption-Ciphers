@@ -37,7 +37,7 @@
 
 <br>
 
-### :book: Cifra Cesar
+### :book: Algoritmo de Cesar
 
 <h3 align="center">
     <img alt="API" title="API" src="./static/1.gif" width="800px" />
@@ -45,7 +45,7 @@
  
 <br>
 
-### :memo: Cifra permuta
+### :memo: Algoritmo de permuta
 
 <h3 align="center">
     <img alt="API" title="API" src="./static/2.gif" width="800px" />
