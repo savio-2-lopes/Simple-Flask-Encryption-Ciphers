@@ -1,11 +1,15 @@
-<a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_cesar" align="center">
-    <img alt="API" title="API" src="./static/1.gif" width="600px" />
-</a>
- 
- <a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_permuta" align="center">
+<p align="center">
+  <a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_cesar">
+      <img alt="API" title="API" src="./static/1.gif" width="600px" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/savio-2-lopes/simple_sites_flask_encryption_ciphers/tree/main/cifra_permuta" >
     <img alt="API" title="API" src="./static/2.gif" width="600px" />
-</a>
- 
+  </a>
+</p>
+
 <p align="center"> 
    <img src="https://img.shields.io/badge/version-0.0.1-yellow.svg" />
   
